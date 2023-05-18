@@ -1,7 +1,7 @@
 function giveData(){
     const countries=JSON.parse(this.responseText);
 countries.forEach(coun => {
-    console.log(coun.region)
+    console.log(coun.region,coun.subregion,coun.population)
    
     });
 }
